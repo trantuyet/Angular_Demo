@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Function Change Font-size</title>
+</head>
+<body>
+<h2>Font size editor</h2>
+
+<div>
+  <label>Enter font size (px):</label>
+  <input type="number" [value]="fontSize" (change)="onChange($event.target.value)">
+</div>
+
+<p class="output" [style.fontSize.px]="fontSize" style="color: blueviolet">
+  Where there's a will, there's a way, kind of beautiful ;))) </p>
+</body>
+</html>

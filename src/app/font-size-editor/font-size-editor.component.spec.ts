@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FontSizeEditorComponent } from './font-size-editor.component.spec';
+import { FontSizeEditorComponent } from './font-size-editor.component';
 
 describe('FontSizeEditorComponent', () => {
   let component: FontSizeEditorComponent;
